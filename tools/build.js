@@ -9,6 +9,7 @@
 
 'use strict';
 
+require('babel-polyfill');
 const fs = require('fs');
 const del = require('del');
 const rollup = require('rollup');
